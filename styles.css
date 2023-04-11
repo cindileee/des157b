@@ -46,15 +46,21 @@ header {
 
 main {
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    justify-content: space-between;
     margin: 1em auto;
 }
 
 main section {
-    width: 25%;
-    border: 1px #3C428C dashed;
+    /* width: 25%; */
+    width: 24%;
+    /* border: 1px #3C428C dashed; */
+    border: 1px #B2A8F1 dashed;
+
     margin: 0 .25em;
-    padding: 1em;
+    /* padding: 1em; */
+    padding: 1.5em 2em;
+    border-radius: 20px;
 }
 
 a {
@@ -83,6 +89,10 @@ section a:hover {
     background-color: #B2A8F1;
    
     color: #333;
+}
+
+main section.switch{
+    border: 1px #3C428C dashed;
 }
 
 section.switch a {
