@@ -1,0 +1,31 @@
+body{
+    max-width: 60%;
+    margin:auto;
+    margin-top:100px;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+
+
+
+figcaption{
+    padding-top: 4px;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#container1{
+    display: flex;
+    gap:30px;
+}
