@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockbuster Video</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+</head>
+<body>
+
+    <video id="myVideo" muted autoplay loop playsinline>
+        <source src="media/expired.webm" type="video/webm">
+        <source src="media/expired.mp4" type="video/mp4">
+       
+
+        <p>Your browser doesn't support HTML5 video. Here is a <a href="media/expired.mp4">link to the video</a>instead.</p>
+    </video>
+
+    
+    <div id="loading">
+        <p>Loading</p>
+        <i class="fa-sharp fa-solid fa-rotate-right fa-spin"></i>
+    </div>
+
+    <!-- <i class="fa-sharp fa-solid fa-rotate-right fa-spin"></i> -->
+
+    <i class="fas fa-expand"></i>
+
+    <section id = "poem">
+        <p id = "line1" class = "hidden">Somehow everything comes with an expiry date.</p>
+        <p id = "line2" class = "hidden">Swordfish expires.</p>
+        <p id = "line3" class = "hidden">Meat sauce expires.</p>
+        <p id = "line4" class = "hidden">Even plastic wrap expires.</p>
+        <p id = "line5" class = "hidden">Is there anything in the world which doesn't?</p>
+        <p id = "line6" class = "hidden">- He Qiwu in Chungking Express (1994)</p>
+
+    </section>
+
+</body>
+</html>
