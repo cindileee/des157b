@@ -14,6 +14,7 @@ p{
     font-family: 'Quicksand', sans-serif;
     line-height: 1.5em;
     margin: 0;
+    margin-bottom: 10px;
 }
 
 
@@ -27,5 +28,46 @@ figcaption{
 
 #container1{
     display: flex;
-    gap:30px;
+    gap:100px;
+}
+
+img{
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+/* #comp{
+    display: flex;
+}
+
+#ooo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+      
+}
+
+#compname{
+    
+    display: flex;
+    flex-direction: column;
+} */
+
+#casestudya{
+    font-size: 32px;
+    text-decoration: none;
+    color: #000 ;
+    font-weight: 700;
+}
+
+#casestudy{
+    margin-bottom: 50px;
+}
+
+
+#casestudya:hover{
+   
+    
+    color: #767676 ;
+    
 }
