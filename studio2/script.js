@@ -59,7 +59,9 @@
     
 
     async function getTitleInfo(title){
-        const url = `http://www.omdbapi.com/?i=${title}&plot=full&apikey=b6a9b242`;
+        // const url = `http://www.omdbapi.com/?i=${title}&plot=full&apikey=b6a9b242`;
+        const url = `https://www.omdbapi.com/?i=${title}&plot=full&apikey=b6a9b242`;
+        
         const titleData = await fetch(url);
         const data = await titleData.json();
         console.log(data);
