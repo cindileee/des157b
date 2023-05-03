@@ -32,7 +32,8 @@ td {
     max-width: 25%;
 } */
 img{
-    max-width: 25%;
+    max-width: 40%;
+    height: 90%;
     border-radius: 20px 0 0 20px;
     filter: drop-shadow(0px 4px 5px rgba(255, 255, 255, 0.25));
     
@@ -40,12 +41,14 @@ img{
 
 #info{
     background-color: #141414;
-    width: 25%;
+    width: 35%;
+    height: 77%;
     padding:30px;
     border-radius: 0px 20px 20px 0px;
     left:0;
     filter: drop-shadow(0px 4px 5px rgba(255, 255, 255, 0.25));
 }
+
 
 /* #imgcon img{
     max-width: 100%;
@@ -71,22 +74,25 @@ img{
     justify-content: space-around;
 } */
 
-/* main {
+
+
+
+main {
     overflow-x: hidden;
     display: flex;
   }
   
-
-  
   section {
-
+   
     min-width: 50vw;
-    min-height: 100vh;
+    min-height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
+   
+  }
+  
 
-  }  */
 
 
   h2{
