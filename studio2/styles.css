@@ -1,3 +1,10 @@
+/* body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    max-width: 80%;
+    margin: auto;
+} */
+
 body{
     background-color: #141414;
     color: #fff;
@@ -10,7 +17,20 @@ h1{
     font-family: 'Playfair Display', serif;
     font-size: 50px;
 }
+/* table {
+    width: 100%;
+}
 
+td {
+    padding: 5px;
+    border: 2px solid #ccc;
+    width: 20%;
+    box-sizing: border-box;
+} */
+
+/* img{
+    max-width: 25%;
+} */
 img{
     max-width: 25%;
     border-radius: 20px 0 0 20px;
@@ -18,21 +38,6 @@ img{
     
 }
 
-#interstellar{
-    display: flex;
-    
-   
-    
-
-    
-}
-p{
-    /* font-family: 'Montserrat', sans-serif; */
-    font-family: 'Inter', sans-serif;
-    font-size: 15px;
-    line-height: 1.5em;
-    
-}
 #info{
     background-color: #141414;
     width: 25%;
@@ -42,63 +47,29 @@ p{
     filter: drop-shadow(0px 4px 5px rgba(255, 255, 255, 0.25));
 }
 
-h2{
-    padding:0;
-    margin:0;
-    font-size: 40px;
-    font-family: 'Playfair Display', serif;
-    
-}
-
-.hidden{
-    visibility: hidden;
-    opacity: 0;
-    transition: 0.5s ease-in-out;
-    /* width: 35%; */
-}
-
-.showing{
-    visibility: visible;
-    opacity: 1;
-    /* width: 35%; */
-    transition: 0.5s ease-in-out;
-}
-
-/* #info:hover{
-    width: 35%;
-    transition: 0.5s ease-in-out;
+/* #imgcon img{
+    max-width: 100%;
 } */
 
-#info2{
+/* #container{
+    display: flex;
+    gap:10px;
+    overflow: visible;
     
-    margin-top:0px;
    
-}
+} */
 
-#info2 p{
-    /* font-size: 20px; */
-    margin: 0;
-}
 
-#watchd{
-    padding-top: 10px;
-}
 
-#actors, #released{
-    color:#767676;
-    margin: 0;
+#movie{
+    display: flex;
     
 }
 
-
-#released{
-   
-    padding-top: 10px;
-    margin: 0;
-}
-
-
-
+/* #container{
+    display: flex;
+    justify-content: space-around;
+} */
 
 /* main {
     overflow-x: hidden;
@@ -115,4 +86,40 @@ h2{
     justify-content: center;
     align-items: center;
 
-  } */
+  }  */
+
+
+  h2{
+    padding:0;
+    margin:0;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+p{
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    color:#767676;
+    padding:0;
+    margin:0;
+    
+}
+
+
+.hidden{
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.showing{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+}
+

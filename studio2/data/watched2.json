@@ -1,0 +1,180 @@
+{ 
+	"1": {
+		"title": "Don't Look Up",
+		"type": "movie",
+		"platform": "Netflix",
+		"date_watched": "2021-12-25",
+		"imdb_number": "tt11286314"
+	},
+	"2" :{
+		"title": {
+			"show_title": "Deep Space 9",
+			"episode": "s1e1",
+			"episode_title": "Emissary"
+		},
+		"type": "television",
+		"platform": "Netflix",
+		"date_watched": "2021-12-26",
+		"imdb_number": "tt0108214"
+	},
+	"3": {
+		"title": {
+			"show_title": "Deep Space 9",
+			"episode": "s1e2",
+			"episode_title": "Past Prologue"
+		},
+		"type": "television",
+		"platform": "Netflix",
+		"date_watched": "2021-12-26",
+		"imdb_number": "tt0708576"
+	},
+	"4" : {
+		"title": {
+			"show_title": "Deep Space 9",
+			"episode": "s1e3",
+			"episode_title": "A Man Alone"
+		},
+		"type": "television",
+		"platform": "Netflix",
+		"date_watched": "2021-12-26",
+		"imdb_number": "tt0708494"
+	},
+	"5" : {
+		"title": {
+			"show_title": "Deep Space 9",
+			"episode": "s1e4",
+			"episode_title": "Babel"
+		},
+		"type": "television",
+		"platform": "Netflix",
+		"date_watched": "2021-12-26",
+		"imdb_number": "tt0708501"
+	},
+	"6" : {
+		"title": {
+			"show_title": "Seinfeld",
+			"episode": "s9e1",
+			"episode_title": "The Butter Shave"
+		},
+		"type": "television",
+		"platform": "Netflix",
+		"date_watched": "2021-12-25",
+		"imdb_number": "tt0697665"
+	},
+	"7" : {
+		"title": {
+			"show_title": "Seinfeld",
+			"episode": "s9e2",
+			"episode_title": "The Voice"
+		},
+		"type": "television",
+		"platform": "Netflix",
+		"date_watched": "2021-12-26",
+		"imdb_number": "tt0697806"
+	},
+	"8" : {
+		"title": {
+			"show_title": "Seinfeld",
+			"episode": "s9e3",
+			"episode_title": "The Serenity Now"
+		},
+		"type": "television",
+		"platform": "Netflix",
+		"date_watched": "2021-12-26",
+		"imdb_number": "tt0697773"
+	},
+	"9" : {
+		"title": "Dr. No",
+		"type": "movie",
+		"platform": "Plex",
+		"date_watched": "2021-12-24",
+		"imdb_number": "tt0055928"
+	},
+	"10" : {
+		"title": "From Russia with Love",
+		"type": "movie",
+		"platform": "Plex",
+		"date_watched": "2021-12-25",
+		"imdb_number": "tt0057076"
+	},
+	"11" : {
+		"title": {
+			"show_title": "1883",
+			"episode": "s1e3",
+			"episode_title": "River"
+		},
+		"type": "television",
+		"platform": "Paramount+",
+		"date_watched": "2021-12-26",
+		"imdb_number": "tt15294860"
+	},
+	"12" : {
+		"title": {
+			"show_title": "1883",
+			"episode": "s1e1",
+			"episode_title": "1883"
+		},
+		"type": "television",
+		"platform": "Paramount+",
+		"date_watched": "2021-12-24",
+		"imdb_number": "tt14103574"
+	},
+	"13" : {
+		"title": {
+			"show_title": "1883",
+			"episode": "s1e2",
+			"episode_title": "Behind Us, A Cliff"
+		},
+		"type": "television",
+		"platform": "Paramount+",
+		"date_watched": "2021-12-24",
+		"imdb_number": "tt15294862"
+	},
+	"14" : {
+		"title": {
+			"show_title": "The Expanse",
+			"episode": "s6e3",
+			"episode_title": "Force Projection"
+		},
+		"type": "television",
+		"platform": "Amazon Prime",
+		"date_watched": "2021-12-24",
+		"imdb_number": "tt14357322"
+	},
+	"15" : {
+		"title": {
+			"show_title": "The Expanse",
+			"episode": "s6e2",
+			"episode_title": "Azure Dragon"
+		},
+		"type": "television",
+		"platform": "Amazon Prime",
+		"date_watched": "2021-12-17",
+		"imdb_number": "tt15028454"
+	},
+	"16" : {
+		"title": {
+			"show_title": "The Expanse",
+			"episode": "s6e1",
+			"episode_title": "Strange Dogs"
+		},
+		"type": "television",
+		"platform": "Amazon Prime",
+		"date_watched": "2021-12-10",
+		"imdb_number": "tt13527286"
+	},
+	"17" : {
+		"title": "Being the Ricardos",
+		"type": "movie",
+		"platform": "Theater",
+		"date_watched": "2021-12-18",
+		"imdb_number": "tt4995540"
+	},
+	"18" : {
+		"title": "Spiderman No Way Home",
+		"type": "movie",
+		"platform": "Theater",
+		"date_watched": "2021-12-18",
+		"imdb_number": "tt4995540"
+	}
+}

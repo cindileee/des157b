@@ -3,79 +3,105 @@
         "date" : "June 23, 2022",
         "title" : "Interstellar",
         "rating" : 5,
-        "imdb_number": "tt0816692"
+        "imdb_number": "tt0816692",
+        "type": "movie",
+        "img": "interstellar.jpg"
     },
     "two" : {
         "date" : "June 27, 2022",
         "title" : "Apollo 13",
         "rating" : 3.5,
-        "imdb_number": "tt0112384"
+        "imdb_number": "tt0112384",
+        "type": "movie",
+        "img": "apollo13.jpg"
     },
     "three" : {
         "date" : "July 5, 2022",
         "title" : "Se7en",
         "rating" : 3.5,
-        "imdb_number": "tt0114369"
+        "imdb_number": "tt0114369",
+        "type": "movie",
+        "img": "se7en.jpg"
     },
     "four" : {
         "date" : "June 11, 2022",
         "title" : "The Legend of 1900",
         "rating" : 3.5,
-        "imdb_number": "tt0120731"
+        "imdb_number": "tt0120731",
+        "type": "movie",
+        "img": "legendof1900.jpg"
     },
     "five" : {
         "date" : "July 14, 2022",
         "title" : "Catch me If You Can",
         "rating" : 3.5,
-        "imdb_number": "tt0264464"
+        "imdb_number": "tt0264464",
+        "type": "movie",
+        "img": "cmiyc.jpeg"
     },
     "six" : {
         "date" : "August 7, 2022",
         "title" : "The Equation of Love and Death",
         "rating" : 3.5,
-        "imdb_number": "tt0264464"
+        "imdb_number": "tt0264464",
+        "type": "movie",
+        "img": "equation.jpg"
     },
     "seven" : {
         "date" : "August 9, 2022",
         "title" : "Shutter Island",
         "rating" : 3.5,
-        "imdb_number": "tt1130884"
+        "imdb_number": "tt1130884",
+        "type": "movie",
+        "img": "shutterisland.jpg"
     },
     "eight" : {
         "date" : "August 22, 2022",
         "title" : "The Great Gatsby",
         "rating" : 4.5,
-        "imdb_number": "tt1343092"
+        "imdb_number": "tt1343092",
+        "type": "movie",
+        "img": "greatgatsby.png"
     },
     "nine" : {
         "date" : "August 24, 2022",
         "title" : "The Devil Wears Prada",
         "rating" : 3.5,
-        "imdb_number": "tt0458352"
+        "imdb_number": "tt0458352",
+        "type": "movie",
+        "img": "devil.jpg"
     },
     "ten" : {
         "date" : "September 5, 2022 ",
         "title" : "The Truman Show",
         "rating" : 3.5,
-        "imdb_number": "tt0120382"
+        "imdb_number": "tt0120382",
+        "type": "movie",
+        "img": "truman.jpeg"
     },
     "eleven" : {
-        "data" : "September 5, 2022",
+        "date" : "September 5, 2022",
         "title" : "Thelma & Louise",
         "rating" : 4.5,
-        "imdb_number": "tt0103074"
+        "imdb_number": "tt0103074",
+        "type": "movie",
+        "img": "thelma&louise.jpg"
     },
     "twelve" : {
         "date" : "September 9, 2022 ",
         "title" : "The Notebook",
         "rating" : 4,
-        "imdb_number": "tt0332280"
+        "imdb_number": "tt0332280",
+        "type": "movie",
+        "img": "notebook.jpg"
     },
     "thirteen" : {
         "date" : "September 17, 2022",
         "title" : "Overheard",
         "rating" : 3,
-        "imdb_number": "tt1349853"
+        "imdb_number": "tt1349853",
+        "type": "movie",
+        "img": "Overheard.jpg"
     }
     
 }
