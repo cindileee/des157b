@@ -13,7 +13,7 @@
         "rating" : 3.5,
         "imdb_number": "tt0112384",
         "type": "movie",
-        "img": "apollo13.jpg"
+        "img": "apollo13.jpeg"
     },
     "three" : {
         "date" : "July 5, 2022",
@@ -21,7 +21,7 @@
         "rating" : 3.5,
         "imdb_number": "tt0114369",
         "type": "movie",
-        "img": "se7en.jpg"
+        "img": "se7en.jpeg"
     },
     "four" : {
         "date" : "July 11, 2022",
@@ -45,7 +45,7 @@
         "rating" : 3.5,
         "imdb_number": "tt1299370",
         "type": "movie",
-        "img": "equation.jpg"
+        "img": "equation.jpeg"
     },
     "seven" : {
         "date" : "August 9, 2022",
@@ -61,7 +61,7 @@
         "rating" : 4.5,
         "imdb_number": "tt1343092",
         "type": "movie",
-        "img": "greatgatsby.png"
+        "img": "greatgatsby.jpeg"
     },
     "nine" : {
         "date" : "August 24, 2022",
@@ -77,7 +77,7 @@
         "rating" : 3.5,
         "imdb_number": "tt0120382",
         "type": "movie",
-        "img": "truman1.jpg"
+        "img": "truman1.jpeg"
     },
     "eleven" : {
         "date" : "September 5, 2022",
