@@ -24,7 +24,7 @@
         "img": "se7en.jpg"
     },
     "four" : {
-        "date" : "June 11, 2022",
+        "date" : "July 11, 2022",
         "title" : "The Legend of 1900",
         "rating" : 3.5,
         "imdb_number": "tt0120731",
@@ -33,7 +33,7 @@
     },
     "five" : {
         "date" : "July 14, 2022",
-        "title" : "Catch me If You Can",
+        "title" : "Catch Me If You Can",
         "rating" : 3.5,
         "imdb_number": "tt0264464",
         "type": "movie",
@@ -43,7 +43,7 @@
         "date" : "August 7, 2022",
         "title" : "The Equation of Love and Death",
         "rating" : 3.5,
-        "imdb_number": "tt0264464",
+        "imdb_number": "tt1299370",
         "type": "movie",
         "img": "equation.jpg"
     },
@@ -77,7 +77,7 @@
         "rating" : 3.5,
         "imdb_number": "tt0120382",
         "type": "movie",
-        "img": "truman.jpeg"
+        "img": "truman1.jpg"
     },
     "eleven" : {
         "date" : "September 5, 2022",
@@ -101,7 +101,7 @@
         "rating" : 3,
         "imdb_number": "tt1349853",
         "type": "movie",
-        "img": "Overheard.jpg"
+        "img": "overheard1.jpg"
     }
     
 }
