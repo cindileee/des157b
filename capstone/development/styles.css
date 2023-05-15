@@ -15,7 +15,12 @@ p{
     font-family: 'Quicksand', sans-serif;
     line-height: 1.5em;
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
 }
 
-
+img{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    
+}
