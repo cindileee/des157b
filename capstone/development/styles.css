@@ -25,6 +25,19 @@ p{
 img{
     display: block;
     margin: auto;
+    max-width: 100%;
     margin-bottom: 20px;
+    
+}
+
+#paper{
+    display: flex;
+    gap:10px;
+
+}
+
+
+#paper img{
+    max-width: 50%;
     
 }
