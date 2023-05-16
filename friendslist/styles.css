@@ -110,6 +110,13 @@ footer a {
     color: #0746a5;
 }
 
+.remove{
+    opacity: 0;
+    height: 0;
+    padding: 0;
+    transition: all 1s;
+}
+
 /*************** Forms ****************/
 
 #add-friend, #edit-friend {
@@ -188,3 +195,5 @@ input {
     border-left: none;
     padding: 0 5px;
 } 
+
+
