@@ -1,12 +1,16 @@
 (function(){
     'use strict';
 
+    
+
     // var map = L.map('map').setView([38.155077, -121.705173], 9);
+
 
     var map = L.map('map').setView([38.225336, -122.024495], 9);
 
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom: 20, attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map);
 
+    
     var marker1 = L.marker([38.560395, -121.756735]).addTo(map); 
 
     var marker2 = L.marker([37.801248, -122.273951]).addTo(map);
@@ -75,7 +79,7 @@
     marker10.bindPopup("Uniboil");
 
 
-
+    
 
 
 
@@ -109,12 +113,17 @@
 
 
 
-
+    marker1.addEventListener("click", function(event){
+        // event.preventDefault();
+       
+        
+        
+    })
 
 
 
    
-
+   
 
 
     //get my own json data
@@ -147,8 +156,8 @@
             html += '</div>';
             html += '</div>';
            
-
-
+            
+            
             
 
             
