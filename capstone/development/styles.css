@@ -41,3 +41,18 @@ img{
     max-width: 50%;
     
 }
+
+#flow{
+    display: flex;
+    gap:30px;
+    margin-bottom:30px;
+    
+}
+
+#flow p{
+    font-size: 17px;
+}
+
+#flow img{
+    max-width: 60%;
+}
