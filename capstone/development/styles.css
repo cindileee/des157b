@@ -56,3 +56,22 @@ img{
 #flow img{
     max-width: 60%;
 }
+
+figcaption{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.sketches{
+    border: 1px solid #555;
+    margin:0;
+    margin: auto;
+}
+
+.sketches2{
+    border: 1px solid #555;
+    margin:0;
+    margin: auto;
+    max-width: 40%;
+}
