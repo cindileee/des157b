@@ -53,6 +53,7 @@ async function displayFriends(){
             `;
 
             friendList.append(theListItem);
+            
     });
 
     } catch (error){
@@ -142,7 +143,7 @@ document.addEventListener('click', function(event){
     if (event.target.matches('.fa-edit')){
         // editFriendForm.className = "edit-friend-onscreen";
         // const thisRecord = event.target.getAttribute('id').slice(2);
-        // console.log(thisRecord);
+        console.log(thisRecord);
         thisRecord = event.target.getAttribute('id').slice(2);
         setForm(thisRecord);
         // console.log(thisRecord);

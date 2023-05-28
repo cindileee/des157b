@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone Project</title>
+
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+
+    <!-- Leaflet CSS Library -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+    crossorigin="">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- CSS Stylesheet -->
+    <link href="styles.css" rel="stylesheet">
+
+    <!-- Leaflet JS Library -->
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+
+    <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+    
+    <!-- Javascript -->
+    <script src="script.js" defer></script>
+
+    <script src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+
+</head>
+<body>
+    <div id="map"></div>
+
+    <!-- temp buttons -->
+    <button id="drive">drive</button>
+    <button id="walk">walk</button>
+    <button id="endd">end dr</button>
+    <button id="endw">end walk</button>
+    <button id="geo">geo</button>
+
+    <!-- <div id = "contarea" class="container">
+        
+
+        <main id="container">
+            <h2>Restaurant Information</h2>
+
+            <p>Click marker on map to learn more!</p>
+     
+        </main>
+    </div> -->
+
+    <div id="content">
+        <section id="intro">
+            <img src="images/Hero.png" alt="Horizontal photo of Egghead at a glance">
+            <div id="locate">
+                <h2>'Eye on Mrak' Egghead</h2>
+                <svg></svg>
+            </div>
+            <p>The upside-down head points away from the administration building, laughing. On the back of the head, a single eye stares at Mrak Hall.</p>
+        </section>
+        <section id="gallery">
+            <h3>Public Gallery</h3>
+            <div id="imgScroll">
+                <img src="images/1.png" alt="user ">
+                <img src="images/2.png" alt="Horizontal photo of Egghead at a glance">
+                <img src="images/3.png" alt="Horizontal photo of Egghead at a glance">
+                <img src="images/4.png" alt="Horizontal photo of Egghead at a glance">
+            </div>
+            <button id="photoBtn">Add Your Own Photo</button>
+
+
+            <form id="upload" class="hidden">
+                <label for="fileupload">Upload a File</label>
+                <input type="file" id="fileupload">
+    
+                <input type="submit" value="send file" id="submitBtn">
+            </form>
+            <div id="uploaded-img"></div>
+
+            
+        </section>
+        <section id="edu">
+            <h3>Fun Facts</h3>
+            <ol>
+                <li>Did you know that there the Eggheads was created by Robert Arneson in 1989?</li>
+                <li>Did you know that there the Eggheads was created by Robert Arneson in 1989?</li>
+                <li>Did you know that the first Egghead Music Walk was held on 15 March 2013?</li>
+            </ol>
+        </section>
+
+       
+        
+    </div>
+    
+    <!-- <footer>
+        <p>Made with <a href = "https://leafletjs.com/">Leaflet</a> and <a href = "https://michalsnik.github.io/aos/">Animate on Scroll</a> Libraries</p>
+    </footer> -->
+
+</body>
+
+
+
+
+</html>
