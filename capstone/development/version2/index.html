@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Data Example 4</title>
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+    crossorigin="">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link href="styles.css" rel="stylesheet">
+
+    <script src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+    crossorigin=""></script>
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    <!-- <section>
+        <div class="rotated1"><img src="images/akirap.png" alt="akira"></div>
+
+        <div class="rotated2"><img src="images/bluep.png" alt="blue bottle"></div>
+
+        <div class="rotated3"><img src="images/sweetp.png" alt="sweet"></div>
+
+        <div class="rotated4"><img src="images/dandelionp.png" alt="Dandelion Chocolate"></div>
+
+        <div class="rotated5"><img src="images/gadanip.png" alt="Gadani"></div>
+
+        <div class="rotated6"><img src="images/guadsp.png" alt="Guads"></div>
+        
+        <div data-aos="fade-up" data-aos-duration="1500">
+            <h1>Cindy's Foodie Adventures</h1>
+        </div>
+    </section> -->
+
+    <div id = "contarea" class="container">
+        <div id="map"></div>
+        <button id="sealBtn">Seal Page</button>
+        
+
+        <main id="container">
+
+            <!-- <div id="item" class="hidden" data-aos="fade-up" data-aos-duration="1000">
+                <button id="exitBtn" >Close</button>
+                <img src="images/${markerInfo.img}" class="titleimg">
+                <div class ="info">
+                  
+                    <h3 id="markername"></h3>
+                    <p id="markerlocation"></p>
+
+                    
+                    <p id="description">${markerInfo.description}</p>
+                    
+                    <h4>Public Gallery</h4>
+               
+                    
+                    
+                   
+                    <div id="imgScroll">
+                    <img src="images/1.png" alt="user ">
+                    <img src="images/2.png" alt="Horizontal photo of Egghead at a glance">
+                    <img src="images/3.png" alt="Horizontal photo of Egghead at a glance">
+                    <img src="images/4.png" alt="Horizontal photo of Egghead at a glance">
+                </div>
+                <button id="photoBtn">Add Your Own Photo</button>
+  
+  
+                <form id="upload">
+                  <label for="fileupload">Upload a File</label>
+                  <input type="file" id="fileupload">
+      
+                  <input type="submit" value="send file" id="submitBtn">
+              </form>
+              <div id="uploaded-img">
+             
+              </div>
+    
+    
+                
+  
+  
+                   <div id="fun">
+                    <h4>Fun Facts</h4>
+                      <ol>
+                          <li>${markerInfo.fun1}</li>
+                          <li>${markerInfo.fun2}</li>
+                          <li>${markerInfo.fun3}</li>
+                      </ol>
+                   </div>
+                    
+          </section>
+                   
+                </div>
+              </div> -->
+            
+            
+            
+           
+
+            
+     
+        </main>
+    </div>
+    
+    <div id="badgePage" class="hidden">
+        <button id="mapBtn">Map Page</button>
+        <h2>Badges</h2>
+        <div id="badges">
+            <div id="icon">
+                <img src="images/egghead.png">
+                <h3>Egghead</h3>
+            </div>
+            <div id="icon">
+                <img src="images/mondavi.png">
+                <h3>Mondavi</h3>
+            </div>
+            <div id="icon">
+                <img src="images/mondavi.png">
+                <h3>Mondavi</h3>
+            </div>
+            <div id="icon">
+                <img src="images/egghead.png">
+                <h3>Egghead</h3>
+            </div>
+            <div id="icon">
+                <img src="images/egghead.png">
+                <h3>Egghead</h3>
+            </div>
+            <div id="icon">
+                <img src="images/mondavi.png">
+                <h3>Mondavi</h3>
+            </div>
+            <div id="icon">
+                <img src="images/mondavi.png">
+                <h3>Mondavi</h3>
+            </div>
+            <div id="icon">
+                <img src="images/egghead.png">
+                <h3>Egghead</h3>
+            </div>
+            <div id="icon">
+                <img src="images/mondavi.png">
+                <h3>Mondavi</h3>
+            </div>
+            <div id="icon">
+                <img src="images/egghead.png">
+                <h3>Egghead</h3>
+            </div>
+        </div>
+    </div>
+    
+    <!-- <footer>
+        <p>Made with <a href = "https://leafletjs.com/">Leaflet</a> and <a href = "https://michalsnik.github.io/aos/">Animate on Scroll</a> Libraries</p>
+    </footer> -->
+
+</body>
+
+
+
+
+</html>
