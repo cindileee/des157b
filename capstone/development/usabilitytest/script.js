@@ -1,6 +1,6 @@
 (function() {
   'use strict';
-  
+  alert('Hello, fellow tester! Welcome to the Davis Centennial Seal Treasure Hunt. \r Here, you’ll get to explore and learn more about different places around the UC Davis campus. \r Here are some tasks we prepared for you: \r1. Click on a marker to learn more about it. \r2. Change to the Seal Page. \r3. Upload a photo to the public gallery.')
 
 
   var map = L.map('map').setView([38.541660,  -121.748100], 15);
