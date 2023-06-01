@@ -66,6 +66,7 @@ border-radius: 10px;
 filter: drop-shadow(0px 0px 4px #cecece);  
 }
 
+
 h1{
   font-family: 'Poppins', sans-serif;
     margin-bottom: 200px;
@@ -96,7 +97,7 @@ h3{
 
 h4{
   padding:0;
-  margin:20px 0px 10px;
+  margin:0px 0px 10px;
 
   color: #141414;
   font-size: 16px;
@@ -319,7 +320,7 @@ li, #intro p{
   }
   
   .titleimg{
-    margin-bottom: 20px;
+    width:100%;
   }
   
   #fileupload{
@@ -351,6 +352,12 @@ li, #intro p{
   padding: 2%;
   border-radius: 8px;
   filter: drop-shadow(0px 0px 4px #cecece);
+}
+
+#locator{
+  position: fixed;
+  right: 4%;
+  margin-top:20px;
 }
 
 
@@ -400,3 +407,5 @@ li, #intro p{
   margin-bottom: 10%;
   border: 0px;
 }
+
+

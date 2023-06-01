@@ -71,14 +71,16 @@
                         <h2>${markerInfo.name}</h2>
                         <img id="locator" src="images/router.png">
                     </div>
-                    <p id="address"><strong>Address:</strong> ${markerInfo.location}</p>
+                    <h4>Address</h4>
+                    <p id="address">${markerInfo.location}</p>
+                    <h4>Description</h4>
                     <p id="description">${markerInfo.description}</p>
                 </section>
 
                 <section id="gallery">
                     <h3>Public Gallery</h4>
                     <div id="imgScroll">
-                        <img src="images/1.png" alt="user ">
+                        <img src="images/1.png" alt="user">
                         <img src="images/2.png" alt="Horizontal photo of Egghead at a glance">
                         <img src="images/3.png" alt="Horizontal photo of Egghead at a glance">
                         <img src="images/4.png" alt="Horizontal photo of Egghead at a glance">
@@ -353,6 +355,11 @@
     
 
     
+  //   document.querySelector('#locator').addEventListener('click', function(){
+  //     walking = true;
+  //     document.querySelector('#container').className = 'hidden';
+  //     route();
+  // });
 
     
 

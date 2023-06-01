@@ -60,7 +60,9 @@
     </div>
     <img id="badgeBtn" src="images/badge.png">
 
-    <div id="container"></div>
+    <div id="container">
+        <!-- <button id="photoBtn">Add Your Own Photo</button> -->
+    </div>
 
     <div id="arrival" class="hidden">
         <h2>You're made it</h2>
@@ -77,7 +79,18 @@
         </div>
         <img id="mapBtn" src="images/map.png">
 
+        
 
+        <div id="uploading" class="hidden">
+            <form id="upload">
+                <label for="fileupload">Upload a File</label>
+                <input type="file" id="fileupload">
+    
+                <input type="submit" value="send file" id="submitBtn">
+                </form>
+                <div id="uploaded-img"></div>
+            
+        </div>
         
         <div id="badges">
             <div class="icon">
