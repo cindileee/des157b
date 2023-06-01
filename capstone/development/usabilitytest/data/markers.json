@@ -1,0 +1,41 @@
+{
+    "one" : {
+        "name" : "'Eye on Mrak' Egghead",
+        "location" : "1 Shields Ave, Davis, CA 95616",
+        "coordinates" : "38.535360,  -121.748690",
+        "lat" : 38.5377,
+        "lng" :  -121.7494,
+        "img": "Hero.png",
+        "description" : "The upside-down head points away from the administration building, laughing. On the back of the head, a single eye stares at Mrak Hall.",
+        "fun1" : "Did you know that there the Eggheads was created by Robert Arneson in 1989?",
+        "fun2" : "Did you know that there the Eggheads was created by Robert Arneson in 1989?",
+        "fun3" : "Did you know that there the Eggheads was created by Robert Arneson in 1989?",
+        "markerPhoto": "images/egghead.png"
+    },
+    "two" : {
+        "name" : "'Mondavi Performing Arts Center",
+        "location" : "523 Mrak Hall Dr, Davis, CA 95616",
+        "coordinates" : "38.5343,  -121.7492",
+        "lat" : 38.5343,
+        "lng" :  -121.7492,
+        "img": "mondavi Medium.jpeg",
+        "description" : "The Robert and Margrit Mondavi Center for the Performing Arts is a performing arts venue located on the UC Davis campus in unincorporated Yolo County, California.",
+        "fun1" : "The founders, Robert and Margrit Mondavi were legendary in the development of the California wine industry.",
+        "fun2" : "The founding philanthropist of the Mondavi Center, Barbara K. Jackson, donated the Center’s largest performance space, Barbara K. and W",
+        "fun3" : "UC Davis student each get one FREE ticket to any event presented by the Mondavi Center or the UC Davis Department of Music.",
+        "markerPhoto": "images/mondavi.png"
+    },
+    "three" : {
+        "name" : "Arboretum",
+        "location" : "1 Shields Ave, Davis, CA 95616",
+        "coordinates" : "38.531,  -121.76",
+        "lat" : 38.535360,
+        "lng" :  -121.748690,
+        "img": "images/hero.png",
+        "description" : "The upside-down head points away from the administration building, laughing. On the back of the head, a single eye stares at Mrak Hall.",
+        "fun1" : "Did you know that there the Eggheads was created by Robert Arneson in 1989?",
+        "fun2" : "Did you know that there the Eggheads was created by Robert Arneson in 1989?",
+        "fun3" : "Did you know that there the Eggheads was created by Robert Arneson in 1989?",
+        "markerPhoto": "images/egghead.png"
+    }
+}
