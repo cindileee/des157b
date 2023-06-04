@@ -75,3 +75,15 @@ figcaption{
     margin: auto;
     max-width: 40%;
 }
+
+#usaImg{
+    display: flex;
+    
+}
+
+
+
+#usaImg img{
+    max-width: 30%;
+    margin-bottom: 0;
+}
