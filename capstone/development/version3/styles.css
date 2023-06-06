@@ -391,7 +391,7 @@ li, #intro p{
 #landing {
   position: absolute;
   left: 50%;
-  top:  50%;
+  top:  60%;
   transform: translate(-50%, -50%);
   border-radius: 30px;
   width: 80%;
@@ -403,6 +403,7 @@ li, #intro p{
 
 #landing ul{
   padding-left:6%;
+  overflow-y: scroll;
 }
 
 #landing li {
