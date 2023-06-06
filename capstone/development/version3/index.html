@@ -60,7 +60,14 @@
     <div id="openImg" class="hidden">
        
         <form id="upload">
-            <label for="fileupload">Upload a File</label>
+            
+            <div id="top">
+                <h2>Upload A Photo</h2>
+                <!-- <label for="fileupload">Upload a File</label> -->
+
+                <button id="close1">Close</button>
+            </div>
+            
             <input type="file" id="fileupload">
     
             <!-- For this example, we will just upload the file and not anything else -->
@@ -71,23 +78,43 @@
             <label for="desciption">Add a Description</label>
             <textarea id="description" cols="50" rows ="8"></textarea> -->
     
-            <input type="submit" value="Preview Photo">
+
+            <!-- <div id="descriptionInputContainer">
+                <label for="desciptionText">Add a Description</label>
+            <textarea id="description" cols="50" rows ="8"></textarea>
+            </div> -->
+
+            <input type="submit" value="Preview Photo" id="previewBtn">
+
+            <!-- <div id="uploaded-img"></div> -->
         </form>
-        <button id="next5">Post</button>
-        <div id="uploaded-img"></div>
+
+        <div id="previewImgScreen" class="hidden">
+            <div id="top">
+                <h2>Preview Image</h2>
+                <button id="close2">Close</button>
+            </div>
+            
+            <div id="uploaded-img"></div>
+            <button id="next5" class = "hidden">Post</button>
+        </div>
+
+       
+
+        <!-- <button id="next5" class = "hidden">Post</button> -->
+        
+        
         <!-- <div class="grid-container"></div> -->
     </div>
     
     
-    
-    <div id="map">
-        
-        
-    </div>
+    <div id="map"></div>
     <img id="badgeBtn" src="images/badge.png">
 
     <div id="container" class="hidden">
+        
         <div id="item" data-aos="fade-up" data-aos-duration="1000">
+            <!-- <i class="fa-regular fa-x"></i> -->
             <div id=closePopup></div>
             <section id="intro">
                 
@@ -155,6 +182,8 @@
             <form id="upload">
                 <label for="fileupload">Upload a File</label>
                 <input type="file" id="fileupload">
+
+              
     
                 <input type="submit" value="send file" id="submitBtn">
                 </form>

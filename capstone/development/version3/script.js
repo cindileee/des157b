@@ -436,12 +436,6 @@
 
     
 
-    
-  //   document.querySelector('#locator').addEventListener('click', function(){
-  //     walking = true;
-  //     document.querySelector('#container').className = 'hidden';
-  //     route();
-  // });
 
     
 
@@ -460,10 +454,7 @@
 
 }())
 
-  // App ID and JS Key from B4A
-//   Parse.initialize("73PmwhWYpnQSgxbIIrZU26yl7lmdQGMPc4q8sC1q", "WTaWw3gbdA39gMVJjw3BVJjhud8oML2vLFbpOIUe");
-//   // Parse server
-//   Parse.serverURL = 'https://parseapi.back4app.com/';
+
 
 Parse.initialize("73PmwhWYpnQSgxbIIrZU26yl7lmdQGMPc4q8sC1q","WTaWw3gbdA39gMVJjw3BVJjhud8oML2vLFbpOIUe");
 // Parse server
@@ -473,6 +464,8 @@ Parse.serverURL = 'https://parseapi.back4app.com/';
 document.querySelector('#upload').addEventListener('submit', function(event){
     event.preventDefault();
 
+    
+
     const fileUploadControl = document.querySelector('#fileupload');
     if (fileUploadControl.files.length > 0) {
         const file = fileUploadControl.files[0];
@@ -481,6 +474,7 @@ document.querySelector('#upload').addEventListener('submit', function(event){
         const size = fileUploadControl.files[0].size;
         if(size < 100000 && type == 'image/jpeg' || type == 'image/png' || type == 'image/webp'){
           uploadPhoto(name, file);
+          
         } else {
           alert('the file is too big or is not a .jpg or .png file');
         }
@@ -529,6 +523,8 @@ function showUploadedPhoto(photoURL, photoName){
   // single quotes replaced with tick marks to use the photoName
   let html = `<p>You just uploaded ${photoName}:</p>`;
   html += `<img src="${photoURL}" alt="${photoName}" alt = "${photoName}">`;
+
+  
   document.querySelector('#uploaded-img').innerHTML = html;
 }
 
@@ -579,4 +575,39 @@ document.querySelector('#next5').addEventListener('click', function(){
 
   
 
+
 });
+
+document.querySelector('#previewBtn').addEventListener('click', function(){
+  
+    
+
+    document.querySelector('#previewImgScreen').className = 'showing';
+
+    document.querySelector('#next5').className = 'showing';
+
+    // document.querySelector('#previewBtn').className = 'hidden';
+  
+
+  
+  });
+
+  document.querySelector('#close1').addEventListener('click', function(){
+
+    document.querySelector('#openImg').className = 'hidden';
+
+  
+  });
+
+  document.querySelector('#close2').addEventListener('click', function(){
+  
+    document.querySelector('#previewImgScreen').className = 'hidden';
+  
+  });
+
+
+
+
+
+
+
