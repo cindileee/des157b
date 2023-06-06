@@ -214,10 +214,6 @@ li, #intro p{
   margin-right: 0px;
 }
 
-.leaflet-marker-draggable {
-  display: none;
-}
-
 #arrival {
   background-color: #F1F4F4;
   padding: 6%;

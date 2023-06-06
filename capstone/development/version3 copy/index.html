@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone Project</title>
+
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+
+    <!-- Leaflet CSS Library -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+    crossorigin="">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- AOS CSS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- CSS Stylesheet -->
+    <link href="styles.css" rel="stylesheet">
+
+    <!-- Leaflet JS Library -->
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+     crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+
+    <!-- Leaflet JS Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Parse JS -->
+    <!-- <script src="https://npmcdn.com/parse/dist/parse.min.js"></script> -->
+    <script src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+
+    <!-- Javascript -->
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    <!-- <div id="landing" class="showing">
+        <h2>Welcome to User Testing</h2>
+        <p>Your tasks are the following:</p>
+        <ul>
+            <li>Check out your badges!</li>
+            <li>Click on the markers to learn more about the differet seal locations</li>
+            <li>Use the routing function to go to the one of the locations <em>(For user testing, it will only lead you to the library)</em></li>
+        </ul>
+        <button>Let's begin!</button>
+    </div> -->
+
+    <!-- <button id="open">open</button> -->
+
+    <div id="landing" class="showing">
+        <h2>Welcome to the Davis Centenniel Seal Treasure Hunt</h2>
+        <h4>How It Works:</h4>
+        <ul>
+            <li>Make sure to turn on location services in your Privacy settings of your phone for the best experience.</li>
+            <!-- <li>Check out your badges!</li> -->
+            <li>On the map page, click on the markers/badges to learn more about the differet seal locations</li>
+            <li>Switch to Badge Page to see all your badges and unlocked badges.</li>
+            <li>Use the routing function to go to a marker's location</li>
+            <li>To check in, take a photo at the location and upload it to the public gallery</li>
+        </ul>
+        <button id="begin">Let's begin!</button>
+    </div> 
+
+    <div id="openImg" class="hidden">
+       
+        <form id="upload">
+            
+            <div id="top">
+                <h2>Upload A Photo</h2>
+               
+
+                <button id="close1">Close</button>
+            </div>
+            
+            <input type="file" id="fileupload">
+    
+           
+
+            <input type="submit" value="Preview Photo" id="previewBtn">
+
+            
+        </form>
+
+        <div id="previewImgScreen" class="hidden">
+            <div id="top">
+                <h2>Preview Image</h2>
+                <button id="close2">Close</button>
+            </div>
+            
+            <div id="uploaded-img"></div>
+            <button id="next5" class = "hidden">Post</button>
+        </div>
+
+       
+
+    </div>
+    
+    
+    <div id="map"></div>
+    <!-- <img id="badgeBtn" src="images/badge.png"> -->
+    <img id="badgeBtn" src="images/sealwtext.png">
+
+
+    <div id="container" class="hidden">
+        
+        <div id="item" data-aos="fade-up" data-aos-duration="1000">
+            <!-- <i class="fa-regular fa-x"></i> -->
+            <div id=closePopup></div>
+            <section id="intro">
+                
+            </section>
+
+            <div id="imgScroll">
+                
+            </div>
+
+            <!-- <div class="grid-container"></div> -->
+
+            <button id="photoBtn">Add Your Own Photo</button>
+
+            <section id="edu"></section>
+            <section id="sealInfo"></section>
+
+            
+
+            <!-- <div id="imgScroll">
+              <img src="images/1.png" alt="user">
+              <img src="images/2.png" alt="Horizontal photo of Egghead at a glance">
+              <img src="images/3.png" alt="Horizontal photo of Egghead at a glance">
+              <img src="images/4.png" alt="Horizontal photo of Egghead at a glance">
+            </div>
+            <button id="photoBtn">Add Your Own Photo</button>
+            <form id="upload">
+            <div id="descriptionInputContainer"></div> 
+              <input type="file" id="fileupload">
+              
+              <input type="submit" value="Send File" id="submitBtn">
+            </form>
+            <div id="uploaded-img"></div>
+            
+            <section id="edu">
+                <h3>Fun Facts</h3>
+                <ol>
+                    <li>${markerInfo.fun1}</li>
+                    <li>${markerInfo.fun2}</li>
+                    <li>${markerInfo.fun3}</li>
+                </ol>
+            </section> -->
+
+        </div>
+    </div>
+
+    <div id="arrival" class="hidden">
+        <h2>You're made it</h2>
+        <p>Welcome to the front of Shields Library. This is a temporary user testing location and in the future will carry some description. Please check in.</p>
+        <button>I'm here!</button>
+    </div>
+
+    <img id="load" src="images/load.png" class="hidden"></img>
+
+    <div id="badgePage" class="hidden">
+        <div id="badgeHead">
+            <h2>Badges</h2>
+            
+        </div>
+        <img id="mapBtn" src="images/map.png">
+
+        
+
+        <div id="uploading" class="hidden">
+            <form id="upload">
+                <label for="fileupload">Upload a File</label>
+                <input type="file" id="fileupload">
+
+              
+    
+                <input type="submit" value="send file" id="submitBtn">
+                </form>
+                <div id="uploaded-img"></div>
+            
+        </div>
+        
+        <div id="badges">
+            <div class="icon">
+                <img id="eggy" src="images/shadowhead.png">
+                <h3>Egghead</h3>
+            </div>
+            <div class="icon">
+                <img src="images/shadowdavi.png">
+                <h3>Mondavi</h3>
+            </div>
+            <div class="icon">
+                <img src="images/shadowdavi.png">
+                <h3>Mondavi</h3>
+            </div>
+            <div class="icon">
+                <img src="images/shadowhead.png">
+                <h3>Egghead</h3>
+            </div>
+            <div class="icon">
+                <img src="images/shadowhead.png">
+                <h3>Egghead</h3>
+            </div>
+            <div class="icon">
+                <img id="davi" src="images/shadowdavi.png">
+                <h3>Mondavi</h3>
+            </div>
+            <div class="icon">
+                <img src="images/shadowdavi.png">
+                <h3>Mondavi</h3>
+            </div>
+            <div class="icon">
+                <img src="images/shadowhead.png">
+                <h3>Egghead</h3>
+            </div>
+            <div class="icon">
+                <img src="images/shadowdavi.png">
+                <h3>Mondavi</h3>
+            </div>
+            <div class="icon">
+                <img src="images/shadowhead.png">
+                <h3>Egghead</h3>
+            </div>
+            <div class="icon">
+                <img src="images/shadowhead.png">
+                <h3>Egghead</h3>
+            </div>
+            <div class="icon">
+                <img src="images/shadowdavi.png">
+                <h3>Mondavi</h3>
+            </div>
+        </div>
+        <button id="reset">Reset Badges</button>
+    </div>
+
+</body>
+
+</html>
+

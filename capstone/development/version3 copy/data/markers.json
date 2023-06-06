@@ -2,9 +2,9 @@
     "one" : {
         "name" : "'Eye on Mrak' Egghead",
         "location" : "1 Shields Ave, Davis, CA 95616",
-        "coordinates" : "38.53950,  -121.75000",
-        "lat" : 38.53950,
-        "lng" :  -121.75000,
+        "coordinates" : "38.535360,  -121.748690",
+        "lat" : 38.5377,
+        "lng" :  -121.7494,
         "img": "Hero.png",
         "description" : "The upside-down head points away from the administration building, laughing. On the back of the head, a single eye stares at Mrak Hall.",
         "fun1" : "Did you know that there the Eggheads was created by Robert Arneson in 1989?",
@@ -38,7 +38,7 @@
         "fun1" : "The UC Davis Arboretum and Public Garden spans the campus’s 5300-plus acres and includes the historic Arboretum – a 100-plus acre campus and regional amenity comprised of demonstration gardens and scientific collections as well as the Putah Creek Riparian Reserve – a rare stream and grassland ecosystem managed for teaching, research, wildlife and habitat protection.",
         "fun2" : "For thousands of years, this land has been the home of Patwin people. This campus is Patwin land and remains an important part of Patwin heritage and identity. To honor this legacy and ensure people remain aware of the land they are on, UC Davis has designed several installations in consultation with Patwin Elder Bill Wright and his family, in addition to faculty and students from Native American Studies, staff of American Indian Descent (SAID), as well as representatives from Student Affairs, the office of Finance, Operations and Administration and the UC Davis Arboretum and Public Garden. The Native American Contemplative Garden is part of this effort.",
         "fun3" : "The UC Davis Arboretum and Public Garden's education programs include guided tours, family nature programs, talks by artists, scholars and scientists, and classes and workshops.",
-        "markerPhoto": "images/tree.png",
+        "markerPhoto": "images/egghead.png",
         "seal": "These locations are all a part of the Davis Centennial Seal, a seal which celebrates the 100th anniversary of the 1917 incorporation of the city Davis. It can be seen near Mishka's Café. To learn more about the seal, please visit this <a href='https://www.cityofdavis.org/city-hall/city-manager-s-office/arts-culture/davis-centennial-seal'>link</a>!"
     },
     "four" : {
@@ -52,7 +52,7 @@
         "fun1" : "The International House was a generous gift from Mr. and Mrs. Shunta Yamamoto of Tokyo.",
         "fun2" : "They offer language learning groups, lectures, workshops, music programs, a book club, an international parent community and much more.",
         "fun3" : "The International House's goal is to promote respect and appreciation for all peoples and cultures and to work for world peace.",
-        "markerPhoto": "images/house.png",
+        "markerPhoto": "images/egghead.png",
         "seal": "These locations are all a part of the Davis Centennial Seal, a seal which celebrates the 100th anniversary of the 1917 incorporation of the city Davis. It can be seen near Mishka's Café. To learn more about the seal, please visit this <a href='https://www.cityofdavis.org/city-hall/city-manager-s-office/arts-culture/davis-centennial-seal'>link</a>!"
     }
 }
