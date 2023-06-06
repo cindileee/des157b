@@ -349,10 +349,14 @@ li, #intro p{
 
 #locator, #mapBtn, #badgeBtn {
   display: block;
-  background-color: white;
+  /* background-color: white; */
   padding: 2%;
   border-radius: 8px;
   filter: drop-shadow(0px 0px 4px #cecece);
+}
+
+#locator, #mapBtn{
+  background-color: white;
 }
 
 #locator{
@@ -384,16 +388,21 @@ li, #intro p{
   left: 50%;
   top:  50%;
   transform: translate(-50%, -50%);
-  border-radius: 15px;
+  border-radius: 30px;
   width: 80%;
-  height: 75vh;
+  /* height: 75vh; */
   padding: 6%;
   background-color: #F1F4F4;
   z-index: 3;
 }
 
+#landing ul{
+  padding-left:6%;
+}
+
 #landing li {
   background-color: #F1F4F4;
+  margin:0;
 }
 
 #landing button, #reset {
@@ -493,6 +502,14 @@ button, input{
   top:1%;
   right:4%;
 } */
+
+a{
+  color: #4CB688;
+}
+
+a:hover{
+  color: #cecece;
+}
 
 }
 

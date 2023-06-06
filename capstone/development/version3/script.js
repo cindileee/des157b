@@ -62,51 +62,7 @@
    
          // Function to handle marker click event and display pop-up below the map
          function displayPopup(markerInfo) {
-        //    var popupContent = `
-            
-        //     <div id="item" data-aos="fade-up" data-aos-duration="1000">
-        //         <div id=closePopup></div>
-        //         <section id="intro">
-        //             <img src="images/${markerInfo.img}" class="titleimg">
-        //             <div id="locate">
-        //                 <h2>${markerInfo.name}</h2>
-        //                 <img id="locator" src="images/router.png">
-        //             </div>
-        //             <h4>Address</h4>
-        //             <p id="address">${markerInfo.location}</p>
-        //             <h4>Description</h4>
-        //             <p id="description">${markerInfo.description}</p>
-        //         </section>
-
-                
-
-        //         <div id="imgScroll">
-        //           <img src="images/1.png" alt="user">
-        //           <img src="images/2.png" alt="Horizontal photo of Egghead at a glance">
-        //           <img src="images/3.png" alt="Horizontal photo of Egghead at a glance">
-        //           <img src="images/4.png" alt="Horizontal photo of Egghead at a glance">
-        //         </div>
-        //         <button id="photoBtn">Add Your Own Photo</button>
-        //         <form id="upload">
-        //         <div id="descriptionInputContainer"></div> 
-        //           <input type="file" id="fileupload">
-                  
-        //           <input type="submit" value="Send File" id="submitBtn">
-        //         </form>
-        //         <div id="uploaded-img"></div>
-                
-        //         <section id="edu">
-        //             <h3>Fun Facts</h3>
-        //             <ol>
-        //                 <li>${markerInfo.fun1}</li>
-        //                 <li>${markerInfo.fun2}</li>
-        //                 <li>${markerInfo.fun3}</li>
-        //             </ol>
-        //         </section>
-    
-        //     </div>
-        //     `;  
-
+        
         let intro = `
         
         <section id="intro">
@@ -144,45 +100,17 @@
 
         document.querySelector('#edu').innerHTML = fun;
 
+        let sealText = `
+            <h3>Seal</h3>
+            <p id="description">${markerInfo.seal}</p>
+                    
+        `;
+
+        document.querySelector('#sealInfo').innerHTML = sealText;
+
         getPhotos();
 
 
-    //     <div id="imgScroll">
-    //       <img src="images/1.png" alt="user">
-    //       <img src="images/2.png" alt="Horizontal photo of Egghead at a glance">
-    //       <img src="images/3.png" alt="Horizontal photo of Egghead at a glance">
-    //       <img src="images/4.png" alt="Horizontal photo of Egghead at a glance">
-    //     </div>
-    //     <button id="photoBtn">Add Your Own Photo</button>
-    //     <form id="upload">
-    //     <div id="descriptionInputContainer"></div> 
-    //       <input type="file" id="fileupload">
-          
-    //       <input type="submit" value="Send File" id="submitBtn">
-    //     </form>
-    //     <div id="uploaded-img"></div>
-        
-    //     <section id="edu">
-    //         <h3>Fun Facts</h3>
-    //         <ol>
-    //             <li>${markerInfo.fun1}</li>
-    //             <li>${markerInfo.fun2}</li>
-    //             <li>${markerInfo.fun3}</li>
-    //         </ol>
-    //     </section>
-
-    // </div>
-
-    //     document.querySelector('#container').innerHTML = html;
-    //     var popupContent = `
-            
-
-    //         `;  
-           
- 
-          
-    //        document.querySelector('#container').innerHTML = popupContent;
-    //      }
          }
    
          // Show popup when markers are clicked
@@ -220,11 +148,7 @@
 
     
 
-    // document.querySelector('#drive').addEventListener('click', function(){
-    //     walking = false;
-    //     route();
-    // });
-    
+   
 
     // Functions and vriables for Arrival() Function
     let id;
@@ -602,6 +526,12 @@ document.querySelector('#previewBtn').addEventListener('click', function(){
   document.querySelector('#close2').addEventListener('click', function(){
   
     document.querySelector('#previewImgScreen').className = 'hidden';
+  
+  });
+
+  document.querySelector('#begin').addEventListener('click', function(){
+  
+    document.querySelector('#landing').className = 'hidden';
   
   });
 
