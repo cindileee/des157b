@@ -411,6 +411,8 @@
 
     document.querySelector('#badgeBtn').addEventListener('click', function(){
         document.querySelector('#badgePage').className = 'showing';
+        
+        document.querySelector('#container').className = 'hidden';
     })
 
 
